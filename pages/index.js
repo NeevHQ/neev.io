@@ -25,25 +25,25 @@ const App = () => (
         <h3 class="font-extrabold text-2xl lg:text-4xl py-4 text-center">
           Trusted By
         </h3>
-        <div class="flex flex-wrap lg:justify-center py-4">
+        <div class="flex flex-wrap items-center justify-center py-4">
           <img
-            class="w-48 mx-4 object-contain	"
+            class="w-48 m-4 lg:mx-4 object-contain	"
             src="/static/assets/inega.png"
           />
           <img
-            class="w-48 mx-4 object-contain	"
+            class="w-48 m-4 lg:mx-4 object-contain	"
             src="/static/assets/times_talent.png"
           />
           <img
-            class="w-48 mx-4 object-contain	"
+            class="w-48 m-4 lg:mx-4 object-contain	"
             src="/static/assets/theagencysrilanka.png"
           />
           {/* <img
-            class="w-48 mx-4 object-contain	"
+            class="w-48 m-4 lg:mx-4 object-contain	"
             src="/static/assets/daleseden.jpg"
           /> */}
           <img
-            class="w-48 h-auto mx-4 object-contain	"
+            class="w-48 h-auto m-4 lg:mx-4 object-contain	"
             src="/static/assets/cf-logo.svg"
           />
         </div>
@@ -55,7 +55,9 @@ const App = () => (
       </h3>
     </section>
     <footer class="container mx-auto text-center my-10 py-2">
-      &copy; 2019 Copyright Neev Labs. All rights reserved.
+      <p class="text-sm">
+        &copy; 2019 Copyright Neev Labs. All rights reserved.
+      </p>
     </footer>
   </>
 );

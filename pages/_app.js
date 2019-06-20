@@ -1,6 +1,8 @@
 import React from "react";
 import App, { Container } from "next/app";
 import Head from "next/head";
+import Router from "next/router";
+import withGA from "next-ga";
 
 class Neev extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -50,4 +52,4 @@ class Neev extends App {
   }
 }
 
-export default Neev;
+export default withGA("UA-142499494-1", Router)(Neev);
