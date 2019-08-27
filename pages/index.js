@@ -10,7 +10,7 @@ const App = () => (
         Our Products Makes Businesses Productive
       </h3>
       <p class="text-xl md:text-2xl text-center">
-        We are focused on building products which solves important problems to
+        We are focused on building products which solve important problems to
         help organisations improve their productivity. We take care of all the
         technology related requirements so you can focus on your core business.
       </p>
