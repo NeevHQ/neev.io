@@ -1,5 +1,13 @@
 import "./main.css";
 
+const SocialLinkIcon = ({ name, ...props }) => (
+  <div class="border-2 border-blue-200 hover:border-blue-400 hover:shadow rounded-full mx-4  p-2">
+    <a target="_blank" {...props}>
+      <img src={`/static/assets/${name}.svg`} class="w-8" />
+    </a>
+  </div>
+);
+
 const App = () => (
   <>
     <header class="container mx-auto text-center">
@@ -65,6 +73,23 @@ const App = () => (
       </h3>
     </section>
     <footer class="container mx-auto text-center my-10 pt-4 border-t-2 border-blue-100">
+      <div class="my-4 flex justify-center">
+        <SocialLinkIcon
+          name="github"
+          title="Follow us on Github"
+          href="https://github.com/neevhq"
+        />
+        <SocialLinkIcon
+          name="twitter"
+          title="Follow us on Twitter"
+          href="https://twitter.com/neevhq"
+        />
+        <SocialLinkIcon
+          name="instagram"
+          title="Follow us on Instagram"
+          href="https://instagram.com/neevhq"
+        />
+      </div>
       <p class="text-lg text-gray-700">
         &copy; 2019 Copyright Neev Labs. All rights reserved.
       </p>
