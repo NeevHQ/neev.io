@@ -60,7 +60,8 @@ const App = () => (
     </div>
     <section class="my-2 py-2">
       <h3 class="font-extrabold text-xl lg:text-4xl py-4 text-center">
-        Reach out to us at <span class="border-b-4">hello@neev.io</span>
+        Reach out to us at{" "}
+        <span class="border-b-4 border-blue-400">hello@neev.io</span>
       </h3>
     </section>
     <footer class="container mx-auto text-center my-10 py-2">
