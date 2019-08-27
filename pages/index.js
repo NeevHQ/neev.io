@@ -9,13 +9,13 @@ const App = () => (
       <h3 class="font-extrabold text-2xl lg:text-4xl py-4 text-center uppercase">
         Our Products Makes Businesses Productive
       </h3>
-      <p class="text-2xl text-center">
+      <p class="text-xl md:text-2xl text-center">
         We are focused on building products which solves important problems to
         help organisations improve their productivity. We take care of all the
         technology related requirements so you can focus on your core business.
       </p>
       <img
-        class="w-1/2 mx-auto mt-4 mb-4"
+        class="w-56 md:w-1/3 mx-auto mt-4 mb-4"
         src="/static/assets/solution_mindset.svg"
       />
     </section>
@@ -28,23 +28,33 @@ const App = () => (
           <img
             class="w-48 m-4 lg:mx-4 object-contain	"
             src="/static/assets/inega.png"
+            alt="Inega"
+            title="Inega"
           />
           <img
             class="w-48 h-auto m-4 lg:mx-4 object-contain	"
             src="/static/assets/cf-logo.svg"
+            alt="Cure.fit"
+            title="Cure.fit"
           />
           <img
             class="w-48 m-4 lg:mx-4 object-contain	"
             src="/static/assets/times_talent.png"
+            alt="Times Talent (Times Group)"
+            title="Times Talent (Times Group)"
           />
           <img
             class="w-48 m-4 lg:mx-4 object-contain	"
             src="/static/assets/theagencysrilanka.png"
+            alt="The Agency Srilank"
+            title="The Agency Srilank"
           />
-          {/* <img
-            class="w-48 m-4 lg:mx-4 object-contain	"
-            src="/static/assets/daleseden.jpg"
-          /> */}
+          <img
+            class="w-20 m-4 lg:mx-4 object-contain	"
+            src="/static/assets/yelobank.svg"
+            alt="Yelo Bank"
+            title="Yelo Bank"
+          />
         </div>
       </section>
     </div>

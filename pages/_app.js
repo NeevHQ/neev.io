@@ -1,25 +1,15 @@
 import React from "react";
-import App, { Container } from "next/app";
+import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
 import withGA from "next-ga";
 
 class Neev extends App {
-  static async getInitialProps({ Component, ctx }) {
-    let pageProps = {};
-
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx);
-    }
-
-    return { pageProps };
-  }
-
   render() {
     const { Component, pageProps } = this.props;
 
     return (
-      <Container>
+      <>
         <Head>
           <link
             href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&display=swap"
@@ -47,7 +37,7 @@ class Neev extends App {
         </Head>
 
         <Component {...pageProps} />
-      </Container>
+      </>
     );
   }
 }
