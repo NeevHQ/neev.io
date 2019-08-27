@@ -16,6 +16,8 @@ class Neev extends App {
             rel="stylesheet"
           />
 
+          <link rel="icon" type="image/png" href="/static/assets/neev.ico" />
+
           <title>Neev –– Software Consultancy</title>
           <meta
             name="viewport"
