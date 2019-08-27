@@ -22,7 +22,7 @@ class Neev extends App {
       <Container>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css?family=Fira+Sans:400,800,800i,900&display=swap"
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&display=swap"
             rel="stylesheet"
           />
 

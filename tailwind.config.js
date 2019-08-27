@@ -1,8 +1,8 @@
 module.exports = {
   theme: {
     fontFamily: {
-      display: ["Fira Sans", "sans-serif"],
-      body: ["Fira Sans", "sans-serif"]
+      display: ["Source Sans Pro", "sans-serif"],
+      body: ["Source Sans Pro", "sans-serif"]
     },
     extend: {}
   },

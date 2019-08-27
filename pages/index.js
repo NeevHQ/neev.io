@@ -5,30 +5,33 @@ const App = () => (
     <header class="container mx-auto text-center">
       <h1 class="text-6xl font-display font-black">Neev</h1>
     </header>
-    <main class="container mx-auto mx-2 my-4 px-2">
-      <section class="flex flex-col lg:flex-row">
-        <img class="w-1/2 mx-auto" src="/static/assets/solution_mindset.svg" />
-        <div class="flex flex-col justify-center">
-          <h3 class="font-extrabold text-2xl lg:text-4xl py-4">
-            Our Products Makes Businesses Productive
-          </h3>
-          <p class="text-xl">
-            We are focused on building products which solves important problems
-            to help organisations with their productivity. We take care of all
-            the technology related requirements so you can focus on your core
-            business.
-          </p>
-        </div>
-      </section>
-
-      <section class="my-2">
-        <h3 class="font-extrabold text-2xl lg:text-4xl py-4 text-center">
+    <section class="container mx-auto mx-2 my-4 px-2 flex flex-col justify-center">
+      <h3 class="font-extrabold text-2xl lg:text-4xl py-4 text-center uppercase">
+        Our Products Makes Businesses Productive
+      </h3>
+      <p class="text-2xl text-center">
+        We are focused on building products which solves important problems to
+        help organisations improve their productivity. We take care of all the
+        technology related requirements so you can focus on your core business.
+      </p>
+      <img
+        class="w-1/2 mx-auto mt-4 mb-4"
+        src="/static/assets/solution_mindset.svg"
+      />
+    </section>
+    <div class="bg-blue-100">
+      <section class="container mx-auto mx-2 my-4 px-2 flex flex-col justify-center">
+        <h3 class="font-extrabold text-2xl lg:text-4xl py-4 text-center uppercase">
           Trusted By
         </h3>
         <div class="flex flex-wrap items-center justify-center py-4">
           <img
             class="w-48 m-4 lg:mx-4 object-contain	"
             src="/static/assets/inega.png"
+          />
+          <img
+            class="w-48 h-auto m-4 lg:mx-4 object-contain	"
+            src="/static/assets/cf-logo.svg"
           />
           <img
             class="w-48 m-4 lg:mx-4 object-contain	"
@@ -42,16 +45,12 @@ const App = () => (
             class="w-48 m-4 lg:mx-4 object-contain	"
             src="/static/assets/daleseden.jpg"
           /> */}
-          <img
-            class="w-48 h-auto m-4 lg:mx-4 object-contain	"
-            src="/static/assets/cf-logo.svg"
-          />
         </div>
       </section>
-    </main>
-    <section class="my-2 py-2 italic bg-gray-100">
+    </div>
+    <section class="my-2 py-2">
       <h3 class="font-extrabold text-xl lg:text-4xl py-4 text-center">
-        Reach out to us at hello@neev.io
+        Reach out to us at <span class="border-b-4">hello@neev.io</span>
       </h3>
     </section>
     <footer class="container mx-auto text-center my-10 py-2">
