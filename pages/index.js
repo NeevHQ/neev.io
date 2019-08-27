@@ -64,8 +64,8 @@ const App = () => (
         <span class="border-b-4 border-blue-400">hello@neev.io</span>
       </h3>
     </section>
-    <footer class="container mx-auto text-center my-10 py-2">
-      <p class="text-sm">
+    <footer class="container mx-auto text-center my-10 pt-4 border-t-2 border-blue-100">
+      <p class="text-lg text-gray-700">
         &copy; 2019 Copyright Neev Labs. All rights reserved.
       </p>
     </footer>
