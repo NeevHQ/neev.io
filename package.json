@@ -1,7 +1,7 @@
 {
   "name": "neev.io",
   "version": "1.0.0",
-  "description": "Neev Labs marketing website codebase",
+  "description": "Neev Labs' Official Site",
   "main": "index.js",
   "scripts": {
     "build": "next build && next export",

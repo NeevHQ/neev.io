@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <style>{`body { margin: 0 } /* custom! */`}</style>
         </Head>
-        <body className="font-body bg-white antialiased text-gray-900">
+        <body className="font-body bg-white antialiased text-gray-800">
           <Main />
           <NextScript />
         </body>

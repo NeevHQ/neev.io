@@ -10,21 +10,23 @@ const SocialLinkIcon = ({ name, ...props }) => (
 
 const App = () => (
   <>
-    <header class="container mx-auto text-center">
-      <h1 class="text-6xl font-display font-black">Neev</h1>
+    <header class="container mx-auto flex justify-center items-center">
+      <img src="/static/assets/neev.svg" class="w-12 h-12 mr-4" />
+      <h1 class="text-6xl font-display font-black">Neev.io</h1>
     </header>
-    <section class="container mx-auto mx-2 my-4 px-2 flex flex-col justify-center">
-      <h3 class="font-extrabold text-2xl lg:text-4xl py-4 text-center uppercase">
+
+    <section class="container mx-auto mx-2 my-8 px-2 flex flex-col justify-center">
+      <h3 class="font-extrabold text-2xl lg:text-4xl leading-tight text-center uppercase">
         Our Products Makes Businesses Productive
       </h3>
-      <p class="text-xl md:text-2xl text-center">
+      <p class="text-xl md:text-2xl text-center mb-4">
         We are focused on building products which solve important problems to
         help organisations improve their productivity. We take care of all the
         technology related requirements so you can focus on your core business.
       </p>
       <img
         class="w-56 md:w-1/3 mx-auto mt-4 mb-4"
-        src="/static/assets/solution_mindset.svg"
+        src="/static/assets/work_together.svg"
       />
     </section>
     <div class="bg-blue-100">

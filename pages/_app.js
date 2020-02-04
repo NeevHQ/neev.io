@@ -17,25 +17,24 @@ class Neev extends App {
           />
 
           <link rel="icon" type="image/png" href="/static/assets/neev.ico" />
-
-          <title>Neev –– Software Consultancy</title>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-            class="jsx-3082592417 next-head"
-          />
-
+          <title>Neev.io – Premium Javascript Frontend Consultancy</title>
           <meta
             property="og:title"
             content="Neev –– Professional Software Consultancy"
           />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://neev.io/" />
-          {/* <meta property="og:image" content="/static/flowboardpro.svg" /> */}
           <meta
             property="og:description"
-            content="Neev Labs –– Our Solutions Makes Businesses Productive"
+            content="Neev.io is a premium javascript frontend consultancy with strong expertise in React.js, Vue.js, TailwindCSS, Webpack, Babel, Node.js, Typescript etc."
           />
+          <link rel="apple-touch-icon" sizes="180x180" href="/static/assets/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/static/assets/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/static/assets/favicon-16x16.png" />
+          <link rel="manifest" href="/static/assets/site.webmanifest" />
+          <link rel="mask-icon" href="/static/assets/safari-pinned-tab.svg" color="#5bbad5" />
+          <meta name="msapplication-TileColor" content="#da532c" />
+          <meta name="theme-color" content="#ffffff" />
         </Head>
 
         <Component {...pageProps} />
